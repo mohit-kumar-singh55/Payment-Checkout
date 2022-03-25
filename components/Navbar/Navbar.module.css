@@ -56,9 +56,9 @@
 }
 
 .icon {
+    cursor: pointer;
     width: 40px;
     height: 40px;
-    cursor: pointer;
 }
 
 .login {
@@ -76,5 +76,4 @@
     font-size: 18px;
     background: linear-gradient(112.33deg, #FC4D6D 23.89%, #FDA02F 94.22%);
     cursor: pointer;
-    transition: 0.3s linear;
 }

@@ -1,10 +1,15 @@
 .container {
     max-width: 1540px;
+    display: block;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .main_container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap-reverse;
+    max-width: 1440px;
+    margin: 0 auto;
 }

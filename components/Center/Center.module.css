@@ -1,0 +1,160 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    border-bottom: 2px solid #848484;
+    padding-bottom: 8px;
+}
+
+.heading small:nth-child(1) {
+    font-weight: 600;
+    color: #848484;
+    letter-spacing: 1px;
+}
+
+.heading small:nth-child(2) {
+    font-weight: 600;
+    color: #FC4D6D;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.heading small:nth-child(2)::before {
+
+    background-color: #FC4D6D;
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: -20px;
+    bottom: 8px;
+    border-radius: 100%;
+
+}
+
+.heading small:nth-child(2)::after {
+    background-color: #FC4D6D;
+    content: '';
+    width: 160px;
+    height: 2px;
+    position: absolute;
+    left: -27px;
+    bottom: -10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main_heading {
+    color: #665F60;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.para {
+    color: #A9A9A9;
+    font-size: 14px;
+}
+
+.para small {
+    color: #4863ED;
+    cursor: pointer;
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+}
+
+.image_container {
+    position: relative;
+    width: 200px;
+    height: 100px;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.cards button {
+    border: 2px solid #BCBCBC;
+    padding: 10px 15px;
+    width: 200px;
+    border-radius: 13px;
+    background-color: transparent;
+    color: #383838;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.cards button:focus {
+    border: 2px solid #FC4D6D;
+}
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 800px;
+}
+
+.input_container_1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.input_container_2 {
+    width: 50%;
+    display: flex;
+    gap: 8px;
+}
+
+.divider {
+    background-color: #ACACAC80;
+    height: 2px;
+    margin: 5px 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .link {
+    color: #3A59F3;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer .link svg {
+    width: 10px;
+}
+
+.footer .button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    background: linear-gradient(112.33deg, #FC4D6D 23.89%, #FDA02F 94.22%);
+    cursor: pointer;
+    letter-spacing: 00.5px;
+}
