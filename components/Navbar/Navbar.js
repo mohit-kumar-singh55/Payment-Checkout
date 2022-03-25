@@ -3,7 +3,7 @@ import styles from "./Navbar.module.css";
 import Image from 'next/image';
 import { SearchIcon } from "@heroicons/react/outline";
 import { ChartBarIcon } from "@heroicons/react/solid";
-import logo from "../../public/assests/Group 218.png";
+import logo from "../../public/assests/logo.svg";
 
 const Navbar = () => {
     return (
