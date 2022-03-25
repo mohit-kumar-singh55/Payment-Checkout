@@ -1,0 +1,80 @@
+.navbar {
+    width: 100%;
+    padding: 5px 10px;
+    box-shadow: 0px 4px 11px 0px #00000024;
+}
+
+.inner {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.image {
+    position: relative;
+    height: 60px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.search {
+    position: relative;
+    padding: 10px 12px;
+    border: 2px solid rgba(167, 167, 167, 0.56);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.search svg {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 10px;
+    color: rgba(167, 167, 167, 0.56);
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.login {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    background: linear-gradient(112.33deg, #FC4D6D 23.89%, #FDA02F 94.22%);
+    cursor: pointer;
+    transition: 0.3s linear;
+}
