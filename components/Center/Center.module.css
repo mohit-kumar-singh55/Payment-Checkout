@@ -1,6 +1,6 @@
 .container {
-    min-width: 400px;
-    max-width: 700px;
+    min-width: 300px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -90,12 +90,14 @@
 .cards {
     display: flex;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
 .cards button {
     border: 2px solid #BCBCBC;
     padding: 10px 15px;
-    width: 200px;
+    max-width: 200px;
+    min-width: fit-content;
     border-radius: 13px;
     background-color: transparent;
     color: #383838;
@@ -161,4 +163,83 @@
     background: linear-gradient(112.33deg, #FC4D6D 23.89%, #FDA02F 94.22%);
     cursor: pointer;
     letter-spacing: 0.5px;
+}
+
+
+/* Media */
+
+@media screen and (max-width: 1080px) {
+    .container {
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .heading {
+        display: none;
+    }
+
+    .main {
+        border-radius: 18px;
+        box-shadow: -3px 4px 11px 0px #0000002E;
+        padding: 10px 30px;
+    }
+
+    .main_heading {
+        border-bottom: 2px solid #DDDDDD;
+        padding-bottom: 5px;
+    }
+
+    .input_container_2 {
+        width: 100%;
+    }
+
+    .input_container_2 input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .container {
+        padding: 0;
+    }
+
+    .footer {
+        justify-content: center;
+    }
+
+    .footer .link {
+        display: none;
+    }
+
+    .cards {
+        gap: 8px;
+    }
+
+    .cards button {
+        padding: 6px 12px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .main_heading {
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .cards {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards button {
+        padding: 10px 15px;
+    }
 }
