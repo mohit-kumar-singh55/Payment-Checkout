@@ -7,9 +7,9 @@
 
 .main_container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap-reverse;
     max-width: 1440px;
     margin: 0 auto;
+    gap: 20px;
 }

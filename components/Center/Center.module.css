@@ -1,4 +1,6 @@
 .container {
+    min-width: 400px;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -9,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 500px;
+    width: 70%;
     border-bottom: 2px solid #848484;
     padding-bottom: 8px;
 }
@@ -110,7 +112,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 800px;
+    width: 100%;
 }
 
 .input_container_1 {
@@ -158,5 +160,5 @@
     font-size: 14px;
     background: linear-gradient(112.33deg, #FC4D6D 23.89%, #FDA02F 94.22%);
     cursor: pointer;
-    letter-spacing: 00.5px;
+    letter-spacing: 0.5px;
 }

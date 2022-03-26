@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main_container}>
         <Center />
-        <Sidebar />
+        <Sidebar className={styles.sidebar} />
       </main>
 
     </div>

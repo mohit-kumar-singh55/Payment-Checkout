@@ -1,0 +1,191 @@
+.container {
+    display: flex;
+    background: linear-gradient(90deg, #F5F4F4 50.89%, #FFFDFD 98.22%);
+    flex-direction: column;
+    gap: 10px;
+    min-width: 400px;
+    width: 400px;
+    flex-shrink: 1;
+    padding: 30px 0 30px 30px;
+}
+
+.heading {
+    color: #665F60;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #DDDDDD;
+    padding-bottom: 5px;
+}
+
+.heading small {
+    font-size: 10px;
+    color: #4863ED;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 0 15px 15px;
+}
+
+.image_container {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 2px solid #FC4D6D;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.name_details {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.name_details p {
+    color: #665F60;
+    font-size: 18px;
+}
+
+.country_image {
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+.country_image img {
+    border-radius: 100%;
+}
+
+.icon_language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #474747;
+}
+
+.icon_language svg {
+    width: 25px;
+    color: #777777;
+}
+
+.divider {
+    background-color: #DDDDDD;
+    height: 2px;
+    border-radius: 100px;
+}
+
+.date_container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0 0 10px 15px;
+}
+
+.date_container p {
+    color: #8C8C8C;
+    font-size: 14px;
+}
+
+.date_container h4 {
+    color: #5B5B5B;
+    font-weight: 500;
+}
+
+.date_container small {
+    color: #8C8C8C;
+}
+
+.coupon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+
+.coupon p {
+    color: #6B6B6B;
+    font-size: 14px;
+}
+
+.coupon input {
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.coupon input:focus {
+    border: 1px solid #FC4D6D;
+}
+
+.service_container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 15px;
+    color: #8C8C8C;
+}
+
+.service_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.service_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.service_items .service_price {
+    color: #6B6B6B;
+    font-weight: 600;
+}
+
+.service_free {
+    color: #15C11C;
+    letter-spacing: 0.5px;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    color: #8C8C8C;
+}
+
+.total .total_price {
+    color: #6B6B6B;
+    font-weight: 600;
+}
+
+.free_lesson_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px 15px;
+    color: #6B6B6B;
+    font-size: 14px;
+}
