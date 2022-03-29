@@ -1,10 +1,11 @@
 .container {
     min-width: 300px;
-    width: 60%;
+    width: 55%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 30px 0;
+    gap: 10px;
+    padding: 35px 0 0 80px;
+    /* margin: 0 auto; */
 }
 
 .heading {
@@ -77,31 +78,131 @@
 
 .images {
     display: flex;
-    gap: 15px;
+    gap: 35px;
     align-items: center;
+    width: 100%;
+}
+
+.box1 {
+    position: relative;
+    background: linear-gradient(151.21deg, rgba(255, 255, 255, 0.08) 22.91%, #FFFFFF 106.64%);
+    box-shadow: -4px -4px 11px rgba(95, 95, 95, 0.25), 4px 4px 7px rgba(62, 62, 62, 0.17);
+    /* backdrop-filter: blur(5px); */
+    border-radius: 15px;
+}
+
+.box2 {
+    position: relative;
+    /* background: linear-gradient(151.21deg, rgba(255, 255, 255, 0.08) 22.91%, #FFFFFF 106.64%); */
+    box-shadow: -4px -4px 11px rgba(95, 95, 95, 0.25), 4px 4px 7px rgba(62, 62, 62, 0.17);
+    /* backdrop-filter: blur(5px); */
+    border-radius: 15px;
 }
 
 .image_container {
-    position: relative;
-    width: 200px;
-    height: 100px;
+    min-width: 50px;
+    width: 250px;
+    height: 130px;
+    min-height: 80px;
+    background: linear-gradient(147.46deg, rgba(255, 255, 255, 0.4) 30.82%, rgba(255, 255, 255, 0.1) 77.94%);
+    box-shadow: -4px -4px 12px rgba(95, 95, 95, 0.06), 4px 4px 7px rgba(62, 62, 62, 0.08);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    z-index: 40;
+    gap: 25px;
+}
+
+.image_container span {
+    border: 2px solid #FFFFFF;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+}
+
+.image_container .box_para {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    color: #5F5F5F;
+    letter-spacing: 2px;
+}
+
+.image_container svg {
+    width: 35px;
+    height: 35px;
+}
+
+.circle_1 {
+    position: absolute;
+    width: 88.65px;
+    height: 88.65px;
+    bottom: -10px;
+    left: -10px;
+    background: linear-gradient(112.33deg, rgba(252, 77, 109, 0.56) 23.89%, rgba(253, 160, 47, 0.56) 94.22%);
+    transform: rotate(-79.9deg);
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.circle_2 {
+    position: absolute;
+    width: 88.65px;
+    height: 88.65px;
+    top: -4px;
+    right: -6px;
+    background: linear-gradient(112.33deg, rgba(252, 77, 109, 0.56) 23.89%, rgba(253, 160, 47, 0.56) 94.22%);
+    transform: rotate(-79.9deg);
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.circle_3 {
+    position: absolute;
+    width: 70.65px;
+    height: 70.65px;
+    bottom: 5px;
+    left: 1px;
+    background: linear-gradient(112.33deg, rgba(252, 77, 109, 0.56) 23.89%, rgba(253, 160, 47, 0.56) 94.22%);
+    transform: rotate(-79.9deg);
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.circle_4 {
+    position: absolute;
+    width: 95.65px;
+    height: 95.65px;
+    top: -4px;
+    right: -6px;
+    background: linear-gradient(112.33deg, rgba(252, 77, 109, 0.56) 23.89%, rgba(253, 160, 47, 0.56) 94.22%);
+    transform: rotate(-79.9deg);
+    border-radius: 100%;
+    z-index: -1;
 }
 
 .cards {
     display: flex;
-    gap: 25px;
+    gap: 20px;
     flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .cards button {
     border: 2px solid #BCBCBC;
     padding: 10px 15px;
-    max-width: 200px;
     min-width: fit-content;
+    width: 225px;
     border-radius: 13px;
     background-color: transparent;
     color: #383838;
     font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
     cursor: pointer;
     transition: 0.3s linear;
 }
